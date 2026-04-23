@@ -1,0 +1,30 @@
+ENLACE AL REPOSITORIO GIT — GA7-220501096-AA2-EV01
+=========================================================
+
+Proyecto: Sistema de Diseño Integrado de Circuitos — Módulos CRUD con JDBC
+Evidencia: GA7-220501096-AA2-EV01 — Codificación de Módulos del Software
+Autor: Michael Ronald Olivares Giraldo
+SENA — Ficha 3118306 — Abril 2026
+
+REPOSITORIO GITHUB:
+https://github.com/michael-olivares/GA7-220501096-AA2-EV01-SistemaCircuitos
+
+RAMA PRINCIPAL: main
+RAMA DESARROLLO: develop
+PIPELINE CI: GitHub Actions (.github/workflows/ci.yml)
+
+ESTRUCTURA DE RAMAS (Git Flow):
+  main          ← Código estable y aprobado
+  develop       ← Integración continua
+  feature/crud-proyecto   ← Módulo ProyectoDAO
+  feature/crud-diseno     ← Módulo DisenoDAO
+  feature/crud-usuario    ← Módulo UsuarioDAO
+
+ÚLTIMOS COMMITS (Conventional Commits):
+  feat(conexion): implementar Singleton JDBC con reconexión automática
+  feat(modelo): agregar clases Proyecto, Diseno, Usuario con getters/setters
+  feat(dao): implementar ProyectoDAO con CRUD completo PreparedStatement
+  feat(dao): implementar DisenoDAO con actualización de estado independiente
+  feat(dao): implementar UsuarioDAO con búsqueda por email
+  feat(ui): agregar menú de consola interactivo y demostración CRUD
+  docs(readme): documentar configuración, ejecución y estándares
